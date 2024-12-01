@@ -16,7 +16,7 @@ import { IpropertyBase } from "../IpropertyBase.interface";
 })
 
 export class ProprtyCardComponent {
-    @Input() property: IpropertyBase | undefined; 
+    @Input() property: IpropertyBase | any; 
     ngOnInit() {
         console.log('property data',this.property);
     }
